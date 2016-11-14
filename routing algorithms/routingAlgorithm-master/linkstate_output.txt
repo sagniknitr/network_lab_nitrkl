@@ -1,0 +1,141 @@
+-------Graph-----------
+4: 5(1)1(1)
+5: 4(1)2(4)
+3: 2(3)
+2: 5(4)3(3)1(8)
+1: 4(1)2(8)
+-------Graph End--------
+
+Vertice 1's table: <dest> <next> <distance>.
+1 1 0
+2 4 6
+3 4 9
+4 4 1
+5 4 2
+
+Vertice 2's table: <dest> <next> <distance>.
+1 5 6
+2 2 0
+3 3 3
+4 5 5
+5 5 4
+
+Vertice 3's table: <dest> <next> <distance>.
+1 2 9
+2 2 3
+3 3 0
+4 2 8
+5 2 7
+
+Vertice 4's table: <dest> <next> <distance>.
+1 1 1
+2 5 5
+3 5 8
+4 4 0
+5 5 1
+
+Vertice 5's table: <dest> <next> <distance>.
+1 4 2
+2 2 4
+3 2 7
+4 4 1
+5 5 0
+
+from 2 to 1 hops 2 5 4 message here is a message from 2 to 1
+
+from 3 to 5 hops 3 2 message this one gets sent from 3 to 5!
+
+-------Graph-----------
+4: 2(1)5(1)1(1)
+5: 4(1)2(4)
+3: 2(3)
+2: 4(1)5(4)3(3)1(8)
+1: 4(1)2(8)
+-------Graph End--------
+
+Vertice 1's table: <dest> <next> <distance>.
+1 1 0
+2 4 2
+3 4 5
+4 4 1
+5 4 2
+
+Vertice 2's table: <dest> <next> <distance>.
+1 4 2
+2 2 0
+3 3 3
+4 4 1
+5 4 2
+
+Vertice 3's table: <dest> <next> <distance>.
+1 2 5
+2 2 3
+3 3 0
+4 2 4
+5 2 5
+
+Vertice 4's table: <dest> <next> <distance>.
+1 1 1
+2 2 1
+3 2 4
+4 4 0
+5 5 1
+
+Vertice 5's table: <dest> <next> <distance>.
+1 4 2
+2 4 2
+3 4 5
+4 4 1
+5 5 0
+
+from 2 to 1 hops 2 4 message here is a message from 2 to 1
+
+from 3 to 5 hops 3 2 4 message this one gets sent from 3 to 5!
+
+-------Graph-----------
+4: 5(1)1(1)
+5: 4(1)2(4)
+3: 2(3)
+2: 5(4)3(3)1(8)
+1: 4(1)2(8)
+-------Graph End--------
+
+Vertice 1's table: <dest> <next> <distance>.
+1 1 0
+2 4 6
+3 4 9
+4 4 1
+5 4 2
+
+Vertice 2's table: <dest> <next> <distance>.
+1 5 6
+2 2 0
+3 3 3
+4 5 5
+5 5 4
+
+Vertice 3's table: <dest> <next> <distance>.
+1 2 9
+2 2 3
+3 3 0
+4 2 8
+5 2 7
+
+Vertice 4's table: <dest> <next> <distance>.
+1 1 1
+2 5 5
+3 5 8
+4 4 0
+5 5 1
+
+Vertice 5's table: <dest> <next> <distance>.
+1 4 2
+2 2 4
+3 2 7
+4 4 1
+5 5 0
+
+from 2 to 1 hops 2 5 4 message here is a message from 2 to 1
+
+from 3 to 5 hops 3 2 message this one gets sent from 3 to 5!
+
